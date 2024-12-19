@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Hepta+Slab:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+4:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-top: 16px;
+    padding-bottom: 16px; 
+      
+}
+.header2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 32px;
+}
+.port{
+    font-family: "Hepta Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+    size: 420px;
+}
+.rem{
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+    size: 28px;
+    line-height: 32px;
+    width: 79px;
+    height: 32px;
+    color: black;
+
+}
+
+.header2:hover{
+    cursor: pointer;
+}
+@media (max-width:500px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header2{
+        flex-direction: column;
+    }
+}
+.main{
+    padding: 10px;
+}
+.main-header{
+    text-align: center;
+    font-weight: 800;
+    font-size: 4vw;
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+
+}
+.main-header img{
+    width: 100%;
+    border-radius: 20px;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.5em;
+}
+
+@media (max-width:500px){
+    .main-grid{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.item{
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 17px;
+    
+    
+}
+.item p{
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 20px;
+
+}
+.item img{
+    width: 100%;
+}
+.main-caption{
+    width: 50vw;
+    margin-left: 50vw;
+    margin-top: 4em;
+    font-size: 24px;
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 648px;
+    height: 154px;
+}
+@media (max-width:500px){
+    .main-caption{
+        width: 90vw;
+        margin: 0 0 10vw 0;
+        font-size: 1.5em;
+    }
+    
+}
+.main-footer{
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.footer1{
+    /* font-family; */
+    font-size: 48px;
+    color: black;
+    font-family: "Libre Franklin", serif;
+    width: 600px;
+    font-weight: 500px;
+    font-style: normal;
+  
+}
+
+.page-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0 0 0;
+    font-family: "Libre Franklin", serif;
+    font-size: 28px;
+    font-weight: 500px;
+    font-style: normal;
+  
+}
+
+
+#follow{
+    border-radius: 8px;
+    border: 1.5px solid black;
+    padding: 12px 24px;
+    color: black;
+    font-family: "Libre Franklin", serif;
+    font-weight: 500px;
+    font-style: normal;
+  
+}
+ 
+#follow:hover{
+    cursor: pointer;
+    background-color:white;
+    color:black;
+}
+
+.main-grid2{
+    display: flex;
+    gap: 1.5em;
+}
+
+#button{
+    background-color:#CC0B0B;
+    color: white;
+    width: 123px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+#button:hover{
+    cursor: pointer;
+    
+}
+
+@media (max-width:500px){
+    .main-grid2{
+        flex-direction: column;
+    }
+    .footer1{
+        font-size: 1.5em;
+    }
+    .main-footer{
+        display: flex;
+    }
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    size: 20px;
+    font-style: normal;
+}
+.f1 img{
+    width: 100%;
+}
+#Featured{
+    color: black;
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 40px;
+}
+.line{
+    border-bottom: 1px solid black;
+    padding-top: 45px;
+}
